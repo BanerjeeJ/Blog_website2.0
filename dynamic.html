@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LifeUnscripted</title>
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css" />
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css" />
+
+    <link rel="stylesheet" href="./css/create.css" />
+  </head>
+
+  <body>
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+      <div class="nav-menu flex-row">
+        <div class="nav-brand">
+          <a href="Index.html" class="text-gray">LifeUnscripted</a>
+        </div>
+        <div class="toggle-collapse">
+          <div class="toggle-icons">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div>
+          <ul class="nav-items">
+            <li class="nav-link">
+              <a href="Index.html">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="category.html">Category</a>
+            </li>
+            <li class="nav-link">
+              <a href="create.html">Create Blog</a>
+            </li>
+            <li class="nav-link">
+              <a href="pages.html">Pages</a>
+            </li>
+            <li class="nav-link">
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social text-gray">
+          <a
+            href="#"
+            class="login"
+            onclick="signInWithGoogle()"
+            id="login-button"
+            >Login with Google</a
+          >
+          <a href="#" class="login" onclick="signOut()" id="logout-button"
+            >Logout</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+      <!------------------------ Site Title ---------------------->
+
+      <section class="site-title" id="bg">
+        <div
+          class="site-background"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          id="bg-text"
+        >
+          <h3>Tours & Travels</h3>
+          <h1>Amazing Place on Earth</h1>
+        </div>
+      </section>
+
+      <!------------x----------- Site Title ----------x----------->
+
+      <div class="card">
+        <span class="title"><h2 id="blog-title"></h2></span>
+        <p id="blog-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          auctor sollicitudin imperdiet. Proin cursus ante non sapien tempus, at
+          commodo lectus sodales. Pellentesque tincidunt nisl nisi, vel semper
+          purus fringilla in. Vestibulum pellentesque porttitor eros, at aliquet
+          sapien aliquet a. Nunc egestas iaculis scelerisque. Pellentesque
+          interdum, purus vitae sollicitudin commodo, leo sem dignissim tellus,
+          a lobortis metus arcu sed elit. Sed non erat justo. Donec lacinia in
+          elit ac maximus. Morbi et nisl finibus nulla sagittis varius. Ut
+          laoreet lacinia quam, vitae viverra felis dapibus et. Ut molestie
+          fringilla diam ut rhoncus. Nullam commodo sapien in ornare ultricies.
+          Etiam aliquam magna nisi, sed ultrices massa faucibus ac. Mauris sed
+          felis metus. Sed tempor quam non risus scelerisque tincidunt. Sed quam
+          arcu, tincidunt consequat tortor at, hendrerit dapibus tortor.
+          Maecenas id nisl ultricies, ultrices dolor vitae, pulvinar tortor. Nam
+          non maximus risus, congue ornare leo. In ipsum risus, feugiat eget
+          elit sed, placerat efficitur lectus. Donec porttitor eros dictum
+          ullamcorper mattis. Pellentesque dictum accumsan neque, quis tempor
+          arcu sollicitudin eu. Cras et felis vitae sapien dignissim aliquet.
+          Nunc aliquet, leo nec dapibus pharetra, est mi molestie nunc, sed
+          consectetur ante turpis eu arcu. Fusce ornare cursus placerat.
+          Maecenas vestibulum quis est vel lacinia. Duis ornare mollis enim, id
+          vehicula risus tristique in. Etiam in massa at dolor aliquet cursus
+          quis id libero. Aliquam ornare enim ante, quis hendrerit sapien
+          maximus sit amet. Integer ex augue, gravida id orci in, interdum
+          laoreet risus. Praesent ante sem, mollis sit amet metus ut, vestibulum
+          vulputate velit. Integer urna enim, tempor sagittis lacinia
+          scelerisque, ultrices semper magna. Nulla non sem at magna laoreet
+          gravida eu vitae ipsum. Suspendisse bibendum diam non orci ultrices
+          gravida. Praesent id fringilla risus. Sed ac nunc commodo risus semper
+          sollicitudin ut ut ligula. Nullam blandit, mi id euismod semper,
+          lectus lorem dignissim sem, sit amet imperdiet felis metus eu sapien.
+          Duis id tellus vestibulum, efficitur arcu id, viverra nisl. Cras
+          tincidunt, metus sit amet luctus euismod, enim felis porttitor felis,
+          id mattis enim libero sed nunc. Vestibulum tincidunt tristique cursus.
+          In hendrerit a nisl eu porta. Integer lobortis blandit ornare. Sed
+          eget augue magna. Fusce at felis nec diam vehicula vestibulum vitae id
+          metus. Donec lectus ex, tempor posuere fringilla tincidunt, congue sit
+          amet enim. Vivamus fringilla lorem tempor consectetur sagittis.
+          Curabitur viverra nulla quis mauris dignissim, eget lacinia libero
+          semper. Praesent et orci lorem. Sed metus erat, porttitor in
+          scelerisque ac, venenatis vel tellus. Nullam bibendum tincidunt risus,
+          eget mollis dolor dictum eu. Integer est mi, blandit commodo diam eu,
+          rutrum fermentum urna. Mauris venenatis turpis vel risus suscipit
+          placerat. Nam porttitor lectus dui, ut accumsan ex pulvinar vitae.
+          Proin non metus ullamcorper arcu rutrum vulputate quis et mauris. Orci
+          varius natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Nullam non ipsum sit amet tellus cursus fringilla.
+          Etiam non tincidunt nulla, quis commodo augue. Sed gravida eros
+          fringilla neque lacinia varius. Suspendisse fermentum purus nec felis
+          rhoncus tempor. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Aenean ornare luctus urna eu
+          consequat. Nunc iaculis vestibulum tortor, ut vulputate mi pretium
+          non. In tristique convallis lacus, in tristique metus feugiat id.
+          Nulla semper tellus vel eros tincidunt semper. Fusce luctus nulla eu
+          felis consectetur tincidunt. Duis et erat dolor. Ut eu magna interdum
+          lectus placerat interdum. Aliquam posuere augue est, quis porta urna
+          viverra ac. Fusce sed magna sed sem convallis ultrices.
+        </p>
+      </div>
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            quia atque nemo ad modi officiis iure, autem nulla tenetur
+            repellendus.
+          </p>
+        </div>
+        <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+          <h2>Best preferences</h2>
+          <p>Stay update with our latest</p>
+        </div>
+        <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+          <h2>Instagram</h2>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card3.png" alt="insta1" />
+            <img src="./assets/instagram/thumb-card4.png" alt="insta2" />
+            <img src="./assets/instagram/thumb-card5.png" alt="insta3" />
+          </div>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card6.png" alt="insta4" />
+            <img src="./assets/instagram/thumb-card7.png" alt="insta5" />
+            <img src="./assets/instagram/thumb-card8.png" alt="insta6" />
+          </div>
+        </div>
+        <div class="follow" data-aos="fade-left" data-aos-delay="200">
+          <h2>Follow us</h2>
+          <p>Let us be Social</p>
+          <div>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="rights flex-row">
+        <h4 class="text-gray">
+          Copyright ©2019 All rights reserved | made by Jayatri and Abhigyan
+        </h4>
+      </div>
+      <div class="move-up">
+        <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+      </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+    <script>
+      const data = [
+        {
+          slug: "post-1",
+          title: "Luxorious food high in demand even in villages",
+        },
+        {
+          slug: "post-3",
+          title: "London Fashion week's continued the evolution",
+        },
+        {
+          slug: "post-2",
+          title: "Manegerial skills high in demand in the industry",
+        },
+        {
+          slug: "post-5",
+          title: "Solo hiking leads to lower stress levels in adults",
+        },
+      ];
+      const params1 = new URLSearchParams(window.location.href.split("?")[1]);
+      for (const obj of data) {
+        if (obj.slug === params1.get("title"))
+          document.getElementById("blog-title").innerText = obj.title;
+        const imgPath =
+          params1.get("title").split(".").length === 2
+            ? `/assets/Blog-post/${params1.get("title")}`
+            : `/assets/Blog-post/${params1.get("title")}.jpg`;
+        document.getElementById("bg").style.backgroundImage = `url(${imgPath})`;
+        document.getElementById("bg-text").style.color = "black";
+      }
+    </script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

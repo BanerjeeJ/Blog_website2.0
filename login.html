@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeUnscripted</title>
+
+    <!-- font awesome icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- swiper slider css file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css"
+      integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA=="
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="css\login.css" />
+  </head>
+  <body>
+    <div class="signup-form">
+      <div class="container">
+        <div class="header">
+          <h1>Create an Account</h1>
+          <p>Get started for free!</p>
+        </div>
+        <form>
+          <div class="input">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <input class="signup-btn" type="submit" value="SIGN UP" />
+        </form>
+        <p style="display: none">Or sign up with</p>
+        <div class="social-icons" style="display: none">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google"></i>
+        </div>
+        <p>Already have an account <a href="#">sign in</a></p>
+      </div>
+    </div>
+  </body>
+</html>

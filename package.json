@@ -1,0 +1,16 @@
+{
+  "name": "lifeunscripted",
+  "version": "1.0.0",
+  "description": "This is the complete blooger website create using html and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.21.0",
+    "express": "^4.18.2"
+  }
+}

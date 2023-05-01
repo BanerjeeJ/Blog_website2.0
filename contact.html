@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LifeUnscripted</title>
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css" />
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css" />
+
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+
+  <body>
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+      <div class="nav-menu flex-row">
+        <div class="nav-brand">
+          <a href="Index.html" class="text-gray">LifeUnscripted</a>
+        </div>
+        <div class="toggle-collapse">
+          <div class="toggle-icons">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div>
+          <ul class="nav-items">
+            <li class="nav-link">
+              <a href="Index.html">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="category.html">Category</a>
+            </li>
+            <li class="nav-link">
+              <a href="create.html">Create Blog</a>
+            </li>
+            <li class="nav-link">
+              <a href="pages.html">Pages</a>
+            </li>
+            <li class="nav-link">
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social text-gray">
+          <a
+            href="#"
+            class="login"
+            onclick="signInWithGoogle()"
+            id="login-button"
+            >Login with Google</a
+          >
+          <a href="#" class="login" onclick="signOut()" id="logout-button"
+            >Logout</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+      <!------------------------ Site Title ---------------------->
+
+      <section class="site-title">
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+          <h3>Tours & Travels</h3>
+          <h1>Amazing Place on Earth</h1>
+        </div>
+      </section>
+
+      <!------------x----------- Site Title ----------x----------->
+
+      <!-- --------------------------- About Us ---------------------------------------- -->
+      <div class="About">
+        <h1>About Us</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
+          ducimus porro tempora odio veritatis? In unde eum debitis excepturi
+          cumque quam reiciendis dolorum beatae atque incidunt modi, distinctio
+          rerum ipsa, animi quos, commodi temporibus. Sunt, possimus? Eveniet
+          harum alias ducimus reiciendis dolor doloribus molestias et illum
+          dolores facere, suscipit eaque in laborum, quia inventore molestiae.
+          Modi molestias nesciunt vel eum illo consectetur incidunt soluta
+          ducimus ratione ex ut deserunt aut quidem nobis cumque, labore
+          nostrum, similique id, nulla amet iste vitae. Vitae quo et libero, est
+          accusantium reiciendis voluptatem animi nobis repellendus assumenda
+          voluptates tempore eaque laudantium quod voluptatibus, unde blanditiis
+          voluptate minima. Debitis, unde, nemo voluptates magnam mollitia nisi
+          non eum doloribus voluptatem vero blanditiis, totam assumenda
+          accusantium voluptas error iure et odit maxime laboriosam optio
+          aliquid rerum est? Nostrum exercitationem iste cumque iure qui.
+          Aperiam dolorem commodi excepturi atque inventore sapiente ducimus
+          voluptatum minus aliquam sequi mollitia nihil molestias eligendi
+          exercitationem eaque perspiciatis autem et sunt quidem, iste
+          accusantium! Consectetur placeat, porro magni atque earum dolorum
+          nobis maiores quam eaque odio dolor corrupti sequi sit ad iusto quae!
+          Dolorem optio numquam reiciendis! Vel voluptatibus quod quae eligendi
+          aspernatur asperiores ipsa neque, aliquam molestias animi deserunt
+          sequi ab porro necessitatibus magni, autem earum! Quis quidem tempora,
+          ratione necessitatibus perferendis eligendi debitis illum numquam
+          harum vitae, voluptas nisi. At molestiae illo, labore iusto qui
+          nostrum perferendis officiis natus blanditiis consectetur numquam
+          accusantium commodi maxime alias hic. Debitis veritatis ad, vitae
+          alias error ratione aut similique rem iure magnam temporibus velit
+          reprehenderit tempora ut dignissimos accusantium atque amet
+          consectetur quidem neque quia ex quam blanditiis possimus! Dolorum
+          exercitationem, fugiat atque ad dolores quam corrupti cum ipsum odit
+          unde magnam eos perspiciatis autem soluta voluptatibus labore, sunt
+          iure. Quibusdam pariatur nobis illo eos libero veniam beatae! Sequi ea
+          quisquam nisi rerum quam non eaque quo tempora quod facere. Quisquam
+          laborum corporis debitis laboriosam obcaecati laudantium maxime
+          blanditiis enim beatae minima delectus quibusdam hic maiores ut, odio
+          sapiente quas vitae temporibus reiciendis placeat sequi dolores, omnis
+          aliquid! Deserunt error vel velit quaerat voluptates non quo debitis,
+          dolorum eum, rem porro quidem culpa! Nam, vel soluta. Nihil, soluta.
+          Beatae ipsam dolorem voluptatum. Magnam culpa hic nostrum minus,
+          blanditiis maiores quam ea? Facilis, laboriosam aliquid temporibus
+          ullam obcaecati nobis. Commodi fugit dignissimos adipisci beatae
+          deserunt. Alias ullam nemo possimus sapiente placeat minima, corporis
+          ipsam, quam quaerat ratione non? Laudantium ipsam aliquam molestias
+          earum adipisci eligendi doloribus molestiae odit dolorum natus ea,
+          doloremque cupiditate repellendus laboriosam reiciendis beatae quas
+          aliquid placeat, quos harum tenetur quis voluptas! Esse, possimus
+          praesentium a sint natus quam iure assumenda in, iusto illo quis
+          mollitia, minima laborum neque. Eos minima velit saepe beatae,
+          repudiandae totam molestias iusto magni assumenda rerum maiores veniam
+          necessitatibus sapiente quam praesentium repellat ullam esse labore
+          laudantium cupiditate ipsum qui ea illum perferendis! Odit nulla magni
+          maxime adipisci fugiat harum, quos repellendus totam recusandae
+          nesciunt sequi vel officia minus veniam atque ducimus quae deserunt in
+          iste! Accusantium provident aut cum voluptatibus exercitationem omnis
+          doloremque natus neque quisquam.
+        </p>
+      </div>
+      <div class="post-author text-center">
+        <div class="author-avatar">
+          <img src="./assets/male.png" class="rounded" alt="" />
+        </div>
+
+        <div class="author-info py-2">
+          <h3 class="text-dark">Abhigyan Kashyap</h3>
+
+          <p class="text-secondary secondary-title">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Recusandae, sequi! In harum laborum ipsa voluptatibus doloremque
+            nulla, tempore aut veritatis.
+          </p>
+
+          <div class="post-tags d-flex flex-wrap justify-content-center">
+            <a href="https://www.facebook.com/groups/ElonMusk/" class="nav-link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              class="nav-link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/abhi_kashyap.___/"
+              class="nav-link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://dribbble.com/tags/anime_web" class="nav-link"
+              ><i class="fab fa-dribbble"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="post-author text-center">
+        <div class="author-avatar">
+          <img src="./assets/female.jpg" class="rounded" alt="" />
+        </div>
+
+        <div class="author-info py-2">
+          <h3 class="text-dark">Jayatri Banerjee</h3>
+
+          <p class="text-secondary secondary-title">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Recusandae, sequi! In harum laborum ipsa voluptatibus doloremque
+            nulla, tempore aut veritatis.
+          </p>
+
+          <div class="post-tags d-flex flex-wrap justify-content-center">
+            <a
+              href="https://www.facebook.com/ace.stewart.75?mibextid=ZbWKwL"
+              class="nav-link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://twitter.com/elonmusk" class="nav-link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/_.jayatri._/" class="nav-link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/jayatri-banerjee/"
+              class="nav-link"
+              ><i class="fab fa-dribbble"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!---------------x------------- About Us ---------------x-------------->
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            quia atque nemo ad modi officiis iure, autem nulla tenetur
+            repellendus.
+          </p>
+        </div>
+        <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+          <h2>Best preferences</h2>
+          <p>Stay update with our latest</p>
+        </div>
+        <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+          <h2>Instagram</h2>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card3.png" alt="insta1" />
+            <img src="./assets/instagram/thumb-card4.png" alt="insta2" />
+            <img src="./assets/instagram/thumb-card5.png" alt="insta3" />
+          </div>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card6.png" alt="insta4" />
+            <img src="./assets/instagram/thumb-card7.png" alt="insta5" />
+            <img src="./assets/instagram/thumb-card8.png" alt="insta6" />
+          </div>
+        </div>
+        <div class="follow" data-aos="fade-left" data-aos-delay="200">
+          <h2>Follow us</h2>
+          <p>Let us be Social</p>
+          <div>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="rights flex-row">
+        <h4 class="text-gray">
+          Copyright ©2019 All rights reserved | made by Jayatri and Abhigyan
+        </h4>
+      </div>
+      <div class="move-up">
+        <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+      </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
